@@ -1,65 +1,82 @@
-html{
-    height: 100%;
-}
+* {
+    box-sizing: border-box;
+  }
+  body{
+      color: white;
+      background-image: url(racecar.jpeg);
+      background-size: cover;
+      background-position: top;
+      font-family: 'Bebas Neue', cursive;
+      
+     
+  }
+  .nav{
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+  }
 
-body{
-    position: relative;
-    color: white;
-    background-color: white;
-    background-image: url(racecar.jpeg);
-    background-size: cover;
-    background-position: top;
-    font-family: 'Archivo Black', sans-serif;
-    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
-
-}
-
-h1{
+  nav a{
+      color: white;
+      text-decoration: none;
+      font-family: 'Bebas Neue', cursive;
+  }
+  h1{
+    font-family: 'Bebas Neue', cursive;
+      text-shadow: 2px 0 0 orangered, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px orangered, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+      text-align: center;
+      font-size: 130px;
+      margin: 0px;
+      text-decoration: underline;
     
-    font-family: 'IM Fell French Canon', serif;
-    text-shadow: 2px 0 0 orangered, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px orangered, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
-    text-align: center;
-    font-size: 130px;
-    margin-bottom: 0;
-    text-decoration: underline;
+  }
+  .content-container {
+    display: flex;
     margin-top: 0;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 10px;
+    
+  }
+  p{
+        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 orangered, 1px -1px 0 black, -1px 1px 0 black;
+      font-size: 25px;
+      font-weight: 1000;
+      padding-right: 20px;
+      text-align: center;
+      border-radius: 0%;
+    
+      
+  }
 
-}
-
-
-ul{
+  ul{
     margin: auto;
     list-style-type: none;
+    
     
 }
 
 li{
-    text-align: right;
-    font-size: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-left: 0;
+    width: auto;
+    text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 orangered, 1px -1px 0 black, -1px 1px 0 black;
+
+
     
 }
 
 h2{
     text-shadow: 2px 0 0 orangered, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px orangered, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
-    text-align: right;
+    text-align: center;
+    font-size: 40px;
+   
 }
 
-.left-nav{
-    display: inline;
+.transparent{
+    background-color: rgba(255,255,255,0.5);
 }
-
-.left-nav button{
-    width: 20%;
-    background-color: transparent;
-    border: none;
-    
-}
-
-.left-nav button a{
-    text-decoration: none;
-    color: white;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 15px;
-    text-shadow: 2px 0 0 orangered, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px orangered, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
-}
-

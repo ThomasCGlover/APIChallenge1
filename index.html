@@ -1,45 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Seymour+One&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@1&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <title>F1 Races 2021</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-  <h1>Formula One</h1>
+    <nav class="nav">
+        <a class="nav-link active" aria-current="page" href="https://www.formula1.com/">F1-Site</a>
+        <a class="nav-link" href="https://www.youtube.com/user/Formula1">F1-Youtube</a>
+        <a class="nav-link" href="https://en.wikipedia.org/wiki/FI">F1-Wikipedia</a>
         
+      </nav>
 
-  <section>
-      <div class = 'left-nav'>
-        <button><a href = "https://www.formula1.com/">Offical Formula 1 Website</a></button>
-        <br>
-        <br>
-        <button><a href = "https://www.youtube.com/user/Formula1">Official Formula 1 Youtube</a></button>
-      </div>
+      <!-- layer the transparencies -->
+    <h1 class ="transparent">Formula One</h1>
 
+    <div class="content-container transparent">
+    <div class="column">
+        <!-- f1 information from wiki, etc -->
+        <p class="transparent">
+            Formula One (also known as Formula 1 or F1) is the highest class of international auto racing for single-seater formula racing cars sanctioned by the Fédération Internationale de l'Automobile (FIA).
+            
+        </p>
+        <p class="transparent">
+            The World Drivers' Championship, which became the FIA Formula One World Championship in 1981, has been one of the premier forms of racing around the world since its inaugural season in 1950. The word formula in the name refers to the set of rules to which all participants' cars must conform. A Formula One season consists of a series of races, known as Grands Prix (French for 'grand prizes' or 'great prizes'), which take place worldwide on purpose-built circuits and closed public roads.
+        </p>
 
-    <ul>
-      <h2>2021 Race Schedule</h2>
+        <p class="transparent">
+            The results of each race are evaluated using a points system to determine two annual World Championships: one for drivers, the other for constructors. Each driver must hold a valid Super Licence, the highest class of racing licence issued by the FIA. The races must run on tracks graded "1" (formerly "A"), the highest grade-rating issued by the FIA.[2] Most events occur in rural locations on purpose-built tracks, but several events take place on city streets.
+            
+        
+        </p>
+        
+    </div>
+    <div class="column">
+        
+        <ul class="transparent">
+            <h2>2021 Race Schedule</h2>
+<!-- for loop to display race schedule -->
 
+        </ul>
+    </div>
+    </div>
 
-    </ul>
-      
-  </section>
-           
-    
-
-    
-
-
-
-
-
-    <script type = "text/javascript" src = "scripts.js"></script>
+    <script type="text/javascript" src="script.js"></script> 
 </body>
 </html>
+
